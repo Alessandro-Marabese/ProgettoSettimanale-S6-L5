@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+label,
+p,
+.btn,
+a {
+  font-family: "Outfit", serif;
+}
+
+h2 {
+  padding-left: 0;
+}
+header {
+  background-color: #141414;
+}
+#navbarSupportedContent a {
+  opacity: 70%;
+}
+#navbarSupportedContent a:hover {
+  color: white;
+  opacity: 100%;
+}
+header nav img {
+  height: 80px;
+}
+header .dropdown img {
+  height: 40px;
+  width: 40px;
+}
+.dropdown a {
+  color: white;
+  text-decoration: none;
+}
+#main-content {
+  background-color: #141414;
+}
+#main-content .btn {
+  opacity: 70%;
+}
+#main-content .btn:hover {
+  color: white;
+  opacity: 100%;
+  background-color: #141414;
+}
+footer {
+  background-color: #141414;
+}
+i {
+  color: white;
+}
+footer {
+  color: white;
+  opacity: 0.5;
+}
+footer a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.btn {
+  border-radius: 0;
+}
+
+/* Profile.html */
+#top-head {
+  background-color: black;
+}
+#top-head img {
+  height: 80px;
+}
+#maturity p {
+  display: inline;
+}
+#bottom-buttons .btn {
+  color: white;
+}
+#bottom-buttons .btn:hover {
+  background-color: white;
+  color: black;
+}
