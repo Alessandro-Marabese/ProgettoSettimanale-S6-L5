@@ -47,13 +47,12 @@ header .dropdown img {
   opacity: 100%;
   background-color: #141414;
 }
-footer {
-  background-color: #141414;
-}
+
 i {
   color: white;
 }
 footer {
+  background-color: #141414;
   color: white;
   opacity: 0.5;
 }
@@ -61,6 +60,11 @@ footer a {
   color: white;
   opacity: 0.5;
   text-decoration: none;
+}
+#bottom-page > div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   border-radius: 0;
@@ -82,4 +86,13 @@ footer a {
 #bottom-buttons .btn:hover {
   background-color: white;
   color: black;
+}
+
+@media screen and (max-width: 991px) {
+  #bottom-page > div {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-inline: 1.8rem;
+  }
 }
