@@ -96,3 +96,9 @@ footer a {
     padding-inline: 1.8rem;
   }
 }
+
+@media screen and (max-width: 991px) {
+  #profile-row {
+    flex-direction: column;
+  }
+}
